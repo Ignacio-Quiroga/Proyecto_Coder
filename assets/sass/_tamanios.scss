@@ -1,0 +1,44 @@
+// mixin 
+@mixin size($width, $height){
+	width: $width;
+	height: $height;
+}
+
+
+
+.usadosMobile__contenedor--altura{@include size(auto, 600px)}
+.autos0kmMobile__contenedor--altura{@include size(auto, 600px)}
+
+// El carrusel unicamente en la vista desktop
+.carrusel__usados--altura{@include size(auto, 500px)}
+.carrusel__0km--altura{@include size(auto, 500px)}
+
+.carrusel__usados--imageSize{
+
+	// Vista desktop:
+	@media only screen and (min-width: 1024px){
+		height: 350px;
+	}
+}
+
+.encontraXMarca__logos--tamanio{
+	img{
+		@include size(70px, auto);
+	}
+}
+
+
+// Inicio seccion autos_0km:
+.encontraXTipoAutos0km__img--size{
+	div{
+		img{
+			// Vista Mobile:
+
+
+			// Vista desktop:
+			@media only screen and (min-width: 1024px){
+				@include size(120px, auto);
+			}
+		}
+	}
+}

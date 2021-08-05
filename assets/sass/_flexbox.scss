@@ -1,0 +1,16 @@
+body{
+	overflow-x: hidden;
+}
+
+.carrusel__0km--flexbox{
+	display: flex;
+	.row{
+		align-self: center;
+	}
+}
+
+.carrusel__usados--flexbox{
+	.row{
+		align-self: center;
+	}
+}

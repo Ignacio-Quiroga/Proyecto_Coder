@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+.imgFluid {
+  width: 100%; }
+
+.listStyleNone {
+  list-style-type: none; }
+
+.margin0 {
+  margin: 0px; }
+
+.padding0 {
+  padding: 0px; }
+
+.paddingSide25 {
+  padding: 0 25px; }
+
+.marignside25 {
+  margin: 0 25px; }
+
+.marginTop30 {
+  margin-top: 30px; }
+
+.carrusel__0km--boxMod {
+  padding: 50px; }
+
+.carrusel__usados--boxMod {
+  padding: 50px 0; }
+
+.usadosMobile--boxMod {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 0; }
+
+.usadosMobile__contenedor--boxMod {
+  padding: 50px 0; }
+
+.encontraX--BoxMod {
+  padding: 50px 0; }
+
+.encontraXTipo__titulo--boxMod {
+  padding-top: 30px; }
+
+encontraXTipo__row--boxMod {
+  padding: 50px 0; }
+
+.encuentraXMarca__item--boxMod {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.encuentraXMarca__titulo--boxMod {
+  padding-top: 50px;
+  padding-bottom: 25px; }
+
+.pruebaFondo {
+  background-image: url(../img/mecanico3.png); }
+
+.porQueNosotros__row--boxMod {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 0; }
+
+.footer--boxMod {
+  padding: 50px 0; }
+
+.autos0km__contenedor--boxMod {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.encontraXTipo__row--boxMod div {
+  padding: 30px 0; }
+
+.encontraXMarca0km--BoxMod {
+  padding: 50px 0; }
+
+.encontraPorTipoRow--boxMod div {
+  padding: 30px 0; }
+
+.formulario {
+  padding: 50px 30px; }
+
+.carrusel__usados--backgroundColor {
+  background-color: #1b2141; }
+
+.carrusel__0km--backgroundColor {
+  background-color: #f2f3f8; }
+
+.porQueNosotros--backgroundColor {
+  background-color: #f2f3f8; }
+
+.autos0kmMobile__contenedor--backgroundColor {
+  background-color: #f2f3f8; }
+
+.usadosMobile__contenedor--backgroundColor {
+  background-color: #1b2141; }
+
+.footer--backgroundColor {
+  background-color: #1b2141; }
+
+.textColorWhite {
+  color: white; }
+
+.textColorRed {
+  color: darkred; }
+
+.footer__general--textColor {
+  color: white; }
+
+.carrusel h3 {
+  color: darkred; }
+
+.carrusel__usados--h2Color {
+  color: white; }
+
+.carrusel__usados--listColor {
+  color: white; }
+
+.usadosMobile__h2--color {
+  color: white; }
+
+.usadosMobile__list--color {
+  color: white; }
+
+.porQueNosotros__h3--color {
+  color: darkred; }
+
+.usados--backgroundColor {
+  background-color: #f2f3f8; }
+
+.autos0km--backgroundColor {
+  background-color: #f2f3f8; }
+
+.formulario {
+  background-color: #f2f3f8; }
+
+.ford--backgroundcolor {
+  background-color: #f2f3f8; }
+
+.usadosMobile__contenedor--altura {
+  width: auto;
+  height: 600px; }
+
+.autos0kmMobile__contenedor--altura {
+  width: auto;
+  height: 600px; }
+
+.carrusel__usados--altura {
+  width: auto;
+  height: 500px; }
+
+.carrusel__0km--altura {
+  width: auto;
+  height: 500px; }
+
+@media only screen and (min-width: 1024px) {
+  .carrusel__usados--imageSize {
+    height: 350px; } }
+
+.encontraXMarca__logos--tamanio img {
+  width: 70px;
+  height: auto; }
+
+@media only screen and (min-width: 1024px) {
+  .encontraXTipoAutos0km__img--size div img {
+    width: 120px;
+    height: auto; } }
+
+body h2 {
+  font-family: helvetica; }
+
+body h3 {
+  font-family: tahoma; }
+
+.button {
+  border-radius: 1rem;
+  padding: 0.7rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  background-image: linear-gradient(to left, #92a1f1, #566ded); }
+  @media only screen and (max-width: 767px) {
+    .button {
+      font-size: 1rem; } }
+
+.textAlignCenter {
+  text-align: center; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.encontraXTipo__titulo--uppercase {
+  text-transform: uppercase; }
+
+.encuentraXMarca__titulo--upercase {
+  text-transform: uppercase; }
+
+.encuentraXMarca__titulo--textAlignCenter {
+  text-align: center; }
+
+.encontraXTipo__row--text {
+  text-align: center; }
+
+.footer__general--textAlignCenter {
+  text-align: center; }
+
+body {
+  overflow-x: hidden; }
+
+.carrusel__0km--flexbox {
+  display: flex; }
+  .carrusel__0km--flexbox .row {
+    align-self: center; }
+
+.carrusel__usados--flexbox .row {
+  align-self: center; }
+
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+  .hideOnDesktop {
+    display: none; }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; } }
+
+/* vista mobile */
+@media only screen and (max-width: 767px) {
+  .hideOnMobile {
+    display: none; } }

@@ -1,0 +1,49 @@
+$azulFondo: rgb(27,33,65);
+$grisFondo: rgb(242,243,248);
+$h3Carrusel: darkred;
+$colorh2Usados: white; //En el carrusel
+$colorListaUsados: white; //En el carrusel
+$porQueNosotrosh3: darkred; //seccion: Por qué Nosotros h3
+
+
+
+// Colores de fondo index
+.carrusel__usados--backgroundColor{background-color: $azulFondo;}
+.carrusel__0km--backgroundColor{background-color: $grisFondo;}
+.porQueNosotros--backgroundColor{background-color: $grisFondo;}
+.autos0kmMobile__contenedor--backgroundColor{background-color: $grisFondo;}
+.usadosMobile__contenedor--backgroundColor{background-color: $azulFondo}
+.footer--backgroundColor{background-color: $azulFondo;}
+
+.textColorWhite{color: white;}
+.textColorRed{color: darkred;}
+
+.footer__general--textColor{color: white;}
+
+
+// Color subtitulos h3 carrusel(Únicamente vista Desktop)
+.carrusel{
+	h3{
+		color: $h3Carrusel;
+	}
+}
+
+.carrusel__usados--h2Color{color: $colorh2Usados;}
+.carrusel__usados--listColor{color: $colorListaUsados;}
+.usadosMobile__h2--color{color: $colorh2Usados;}
+.usadosMobile__list--color{color: $colorListaUsados;}
+.porQueNosotros__h3--color{color: $porQueNosotrosh3;}
+
+
+// Sección usados
+.usados--backgroundColor{background-color: $grisFondo}
+
+//Sección autos_0km:
+.autos0km--backgroundColor{background-color: $grisFondo}
+
+
+// Inicio sección formulario
+.formulario{background-color: $grisFondo}
+
+// Ford
+.ford--backgroundcolor{background-color: $grisFondo}

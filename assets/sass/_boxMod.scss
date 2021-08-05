@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.imgFluid{width: 100%;}
+
+
+.listStyleNone{list-style-type: none;}
+
+
+.margin0{margin: 0px;}
+.padding0{padding: 0px;}
+.paddingSide25{padding: 0 25px;}
+.marignside25{margin: 0 25px;}
+.marginTop30{margin-top: 30px;}
+
+
+
+//padding
+.carrusel__0km--boxMod{padding: 50px}
+.carrusel__usados--boxMod{padding: 50px 0;}
+
+.usadosMobile--boxMod{
+	padding:{
+		top: 50px;
+		bottom: 50px;
+		left: 50px;
+		right: 0;
+	}
+}
+
+.usadosMobile__contenedor--boxMod{
+	padding: 50px 0;
+}
+
+// Seccion Encontra por tipo
+.encontraX--BoxMod{
+	padding: 50px 0;
+}
+
+.encontraXTipo__titulo--boxMod{
+	padding:{
+		top: 30px;
+	}
+}
+
+encontraXTipo__row--boxMod{
+	padding: 50px 0;
+}
+
+// Encuentra por marca:
+.encuentraXMarca__item--boxMod{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.encuentraXMarca__titulo--boxMod{
+	padding:{
+		top: 50px;
+		bottom: 25px
+	}
+}
+
+.pruebaFondo{
+	background-image: url(../img/mecanico3.png);
+	
+	
+}
+
+
+
+//Por que Nosotros
+.porQueNosotros__row--boxMod{
+	padding:{
+		top: 50px;
+		bottom: 50px;
+		left: 50px;
+		right: 0;
+	}
+}
+
+
+//footer
+.footer--boxMod{
+	padding: 50px 0;
+}
+
+
+// Inicio seccion autos_0km:
+.autos0km__contenedor--boxMod{
+	padding:{
+		top: 50px;
+		bottom: 50px;
+		left: 30px;
+		right: 30px;
+	}
+}
+
+.encontraXTipo__row--boxMod{
+	div{
+		padding: 30px 0;
+	}
+}
+
+.encontraXMarca0km--BoxMod{
+	padding: 50px 0;
+}
+.encontraPorTipoRow--boxMod{
+	div{
+		padding: 30px 0;
+	}
+}
+
+
+// Inicio seccion formulario
+.formulario{
+	padding: 50px 30px;
+}
+
