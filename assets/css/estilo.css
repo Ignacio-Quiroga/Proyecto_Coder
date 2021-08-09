@@ -191,6 +191,9 @@ body h2 {
 body h3 {
   font-family: tahoma; }
 
+.formulario {
+  font-family: 'Spinnaker', sans-serif; }
+
 .button {
   border-radius: 1rem;
   padding: 0.7rem;
