@@ -89,6 +89,13 @@ encontraXTipo__row--boxMod {
 .formulario {
   padding: 50px 30px; }
 
+.contacto__article--boxMod h2 {
+  padding-top: 50px;
+  padding-bottom: 15px; }
+
+.contacto__article--boxMod p {
+  padding: 15px 0; }
+
 .carrusel__usados--backgroundColor {
   background-color: #1b2141; }
 
