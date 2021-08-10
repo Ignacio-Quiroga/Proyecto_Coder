@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +71,13 @@ encontraXTipo__row--boxMod {
 
 .footer--boxMod {
   padding: 50px 0; }
+
+.footer__buttone--BoxMod {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px; }
 
 .autos0km__contenedor--boxMod {
   padding-top: 50px;
@@ -150,8 +158,20 @@ encontraXTipo__row--boxMod {
 .autos0km--backgroundColor {
   background-color: #f2f3f8; }
 
+.footer a {
+  color: white; }
+
+.footer h2 {
+  color: white; }
+
+.footer h3 {
+  color: #ff0100; }
+
 .formulario {
   background-color: #f2f3f8; }
+
+.formulario__texto--colorRojo {
+  color: #ff0100; }
 
 .ford--backgroundcolor {
   background-color: #f2f3f8; }
@@ -184,6 +204,91 @@ encontraXTipo__row--boxMod {
   .encontraXTipoAutos0km__img--size div img {
     width: 120px;
     height: auto; } }
+
+footer {
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+html, body {
+  display: grid;
+  height: 100%;
+  width: 100%; }
+
+.wrapper .butttone {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out; }
+
+.wrapper .butttone:hover {
+  width: 200px; }
+
+.wrapper .butttone .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out; }
+
+.wrapper .butttone:nth-child(1):hover .icon {
+  background: #4267B2; }
+
+.wrapper .butttone:nth-child(2):hover .icon {
+  background: #1DA1F2; }
+
+.wrapper .butttone:nth-child(3):hover .icon {
+  background: #E1306C; }
+
+.wrapper .butttone:nth-child(4):hover .icon {
+  background: #333; }
+
+.wrapper .butttone:nth-child(5):hover .icon {
+  background: #ff0000; }
+
+.wrapper .butttone .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out; }
+
+.wrapper .butttone:hover .icon i {
+  color: #fff; }
+
+.wrapper .butttone span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out; }
+
+.wrapper .butttone:nth-child(1) span {
+  color: #4267B2; }
+
+.wrapper .butttone:nth-child(2) span {
+  color: #1DA1F2; }
+
+.wrapper .butttone:nth-child(3) span {
+  color: #E1306C; }
+
+.wrapper .butttone:nth-child(4) span {
+  color: #333; }
+
+.wrapper .butttone:nth-child(5) span {
+  color: #ff0000; }
 
 body h2 {
   font-family: helvetica; }
@@ -226,6 +331,12 @@ body h3 {
 
 .footer__general--textAlignCenter {
   text-align: center; }
+
+.footer h2 {
+  font-size: 3rem; }
+
+.formulario h2 {
+  font-size: 4rem; }
 
 body {
   overflow-x: hidden; }

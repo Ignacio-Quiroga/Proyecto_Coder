@@ -37,14 +37,29 @@ $porQueNosotrosh3: darkred; //seccion: Por qué Nosotros h3
 
 
 // Sección usados
-.usados--backgroundColor{background-color: $grisFondo}
+.usados--backgroundColor{background-color: $grisFondo;}
 
 //Sección autos_0km:
-.autos0km--backgroundColor{background-color: $grisFondo}
+.autos0km--backgroundColor{background-color: $grisFondo;}
+
+// Sección footer
+.footer{
+	a{
+	color: white;
+	}
+	h2{
+		color: white;
+	}
+	h3{
+		color: #ff0100;
+	}
+}
 
 
 // Inicio sección formulario
-.formulario{background-color: $grisFondo}
+.formulario{background-color: $grisFondo;}
+.formulario__texto--colorRojo{color: #ff0100;}
+
 
 // Ford
-.ford--backgroundcolor{background-color: $grisFondo}
+.ford--backgroundcolor{background-color: $grisFondo;}

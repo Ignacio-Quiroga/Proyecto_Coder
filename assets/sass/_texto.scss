@@ -1,5 +1,7 @@
 // Formato texto:
 
+
+
 .textAlignCenter{text-align: center;}
 
 .uppercase{text-transform: uppercase;}
@@ -10,5 +12,13 @@
 .encuentraXMarca__titulo--textAlignCenter{text-align: center}
 .encontraXTipo__row--text{text-align: center}
 
-
+// Footer
 .footer__general--textAlignCenter{text-align: center}
+.footer{
+	h2{font-size: 3rem}
+}
+
+// Inicio formulario
+.formulario{
+	h2{font-size: 4rem;}
+}
