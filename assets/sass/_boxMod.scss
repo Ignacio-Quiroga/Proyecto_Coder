@@ -91,6 +91,7 @@ encontraXTipo__row--boxMod{
 }
 .footer__buttone--BoxMod{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	padding:{
 		top: 40px;
@@ -98,7 +99,9 @@ encontraXTipo__row--boxMod{
 		right: 60px;
 	}
 
+
 }
+// Fin footer
 
 
 // Inicio seccion autos_0km:
@@ -126,6 +129,12 @@ encontraXTipo__row--boxMod{
 	}
 }
 
+// Pagina Usados:
+.usados{
+	article{
+		padding: 20px;
+	}
+}
 
 // Inicio seccion formulario
 .formulario{

@@ -74,6 +74,7 @@ encontraXTipo__row--boxMod {
 
 .footer__buttone--BoxMod {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 40px;
   padding-left: 60px;
@@ -93,6 +94,9 @@ encontraXTipo__row--boxMod {
 
 .encontraPorTipoRow--boxMod div {
   padding: 30px 0; }
+
+.usados article {
+  padding: 20px; }
 
 .formulario {
   padding: 50px 30px; }
@@ -155,8 +159,17 @@ encontraXTipo__row--boxMod {
 .usados--backgroundColor {
   background-color: #f2f3f8; }
 
+.usados h3 {
+  color: #ff7f56; }
+
 .autos0km--backgroundColor {
   background-color: #f2f3f8; }
+
+.autos0kmArticle h3 {
+  color: #ff7f56; }
+
+.autos0kmArticle h4 {
+  color: #ff0100; }
 
 .footer a {
   color: white; }
@@ -298,6 +311,18 @@ body h3 {
 
 .formulario {
   font-family: 'Spinnaker', sans-serif; }
+
+.usados h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vh; }
+
+.autos0kmArticle h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  /* vista mobile */ }
+  @media only screen and (max-width: 767px) {
+    .autos0kmArticle h3 {
+      font-size: 1.7rem; } }
 
 .button {
   border-radius: 1rem;

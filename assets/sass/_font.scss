@@ -11,3 +11,28 @@ body{
 	font-family: 'Spinnaker', sans-serif;
 }
 
+.usados{
+	h3{
+		font-family: 'Raleway', sans-serif;
+		font-size: 3vh;
+	}
+}
+
+.autos0kmArticle{
+	h3{
+		font-family: 'Raleway', sans-serif;
+		font-size: 3rem;
+
+		/* vista mobile */
+		@media only screen and (max-width: 767px){
+			font-size: 1.7rem;
+		}
+	}
+	h4{
+
+	}
+	p{
+
+	}
+
+}

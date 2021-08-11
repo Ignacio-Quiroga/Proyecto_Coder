@@ -38,9 +38,22 @@ $porQueNosotrosh3: darkred; //seccion: Por qué Nosotros h3
 
 // Sección usados
 .usados--backgroundColor{background-color: $grisFondo;}
+.usados{
+	h3{color: rgb(255,127,86);}
+}
 
 //Sección autos_0km:
 .autos0km--backgroundColor{background-color: $grisFondo;}
+.autos0kmArticle{
+	h3{
+		color: rgb(255,127,86);
+	}
+	h4{
+		color: #ff0100;
+	}
+}
+
+
 
 // Sección footer
 .footer{
