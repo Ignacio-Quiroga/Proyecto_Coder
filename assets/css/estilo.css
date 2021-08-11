@@ -112,7 +112,7 @@ encontraXTipo__row--boxMod {
   background-color: #1b2141; }
 
 .carrusel__0km--backgroundColor {
-  background-color: #f2f3f8; }
+  background-color: #f2eded; }
 
 .porQueNosotros--backgroundColor {
   background-color: #f2f3f8; }
@@ -331,10 +331,37 @@ body h3 {
   text-decoration: none;
   font-size: 2rem;
   color: white;
-  background-image: linear-gradient(to left, #92a1f1, #566ded); }
+  background-image: linear-gradient(to left, #92a1f1, #566ded);
+  color: #313131;
+  position: absolute;
+  -webkit-animation: colorchange 20s infinite alternate; }
   @media only screen and (max-width: 767px) {
     .button {
       font-size: 1rem; } }
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue; }
+  10% {
+    color: #8e44ad; }
+  20% {
+    color: #1abc9c; }
+  30% {
+    color: #d35400; }
+  40% {
+    color: blue; }
+  50% {
+    color: #34495e; }
+  60% {
+    color: blue; }
+  70% {
+    color: #2980b9; }
+  80% {
+    color: #f1c40f; }
+  90% {
+    color: #2980b9; }
+  100% {
+    color: pink; } }
 
 .textAlignCenter {
   text-align: center; }
