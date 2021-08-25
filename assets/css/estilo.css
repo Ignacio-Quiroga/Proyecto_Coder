@@ -37,7 +37,8 @@
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-  padding-right: 0; }
+  padding-right: 0;
+  margin: 0; }
 
 .usadosMobile__contenedor--boxMod {
   padding: 50px 0; }
@@ -189,20 +190,26 @@ encontraXTipo__row--boxMod {
 .ford--backgroundcolor {
   background-color: #f2f3f8; }
 
+* {
+  max-width: 100vw; }
+
+.anchoPantalla {
+  width: 100vw important; }
+
 .usadosMobile__contenedor--altura {
-  width: auto;
+  width: 100vw;
   height: 600px; }
 
 .autos0kmMobile__contenedor--altura {
-  width: auto;
+  width: 100vw;
   height: 600px; }
 
 .carrusel__usados--altura {
-  width: auto;
+  width: 100vw;
   height: 500px; }
 
 .carrusel__0km--altura {
-  width: auto;
+  width: 100vw;
   height: 500px; }
 
 @media only screen and (min-width: 1024px) {
@@ -220,6 +227,9 @@ encontraXTipo__row--boxMod {
 
 footer {
   width: 100%; }
+
+.porQueNosotros {
+  border: solid green 1px; }
 
 * {
   margin: 0;

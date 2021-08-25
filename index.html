@@ -23,41 +23,45 @@
   </head>
   <body>
     <header>
-      <!-- nav + logo -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-xs-12"> 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">SimpleMotors</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./views/autos_0km.html">Autos 0km</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./views/usados.html">Usados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./views/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
+     
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+        <a class="navbar-brand" href="#">SimpleMotors</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/autos_0km.html">Autos 0km</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/usados.html">Usados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/marcas.html">Marcas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/financiacion.html">Financiación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
+
       <!-- Fin nav + logo -->
     </header>
 
 
     <!-- Inicio contenido -->
-    <main>
+    <main style="max-width: 100vw;">
       <!-- Inicio seccion beneficios autos_0k/Usados certificados -->
       <section>  
         <!-- primer carrusel Unicamente en vista Desktop-->
@@ -130,7 +134,7 @@
 
 
         <!-- beneficios autos 0km Mobile -->
-        <div class="container-fluid autos0kmMobile__contenedor--altura hideOnDesktop autos0kmMobile__contenedor--backgroundColor">
+        <div class="container-fluid autos0kmMobile__contenedor--altura hideOnDesktop autos0kmMobile__contenedor--backgroundColor anchoPantalla">
           <div class="row usadosMobile--boxMod">
             <section class="col-lg-6 col-xs-12">
               <h2>Autos 0km</h2>
@@ -152,7 +156,7 @@
         </div>
 
         <!-- Beneficios usados Mobile-->
-        <div class="container-fluid usadosMobile__contenedor--altura usadosMobile__contenedor--boxMod hideOnDesktop usadosMobile__contenedor--backgroundColor">
+        <div class="container-fluid usadosMobile__contenedor--altura usadosMobile__contenedor--boxMod hideOnDesktop usadosMobile__contenedor--backgroundColor anchoPantalla">
           <div class="row">
             <section class="col-lg-6 col-xs-12">
               <img src="./assets/img/hyundai_creta.png" alt="irving" class="img-fluid">
@@ -174,7 +178,7 @@
       <!-- Fin seccion autos_0k/Usados certificados -->
 
       <!-- Inicio seccion: Encontra por tipo/marca -->
-      <div class="encontraX--BoxMod encuentraX--backgroundColor">
+      <div class="encontraX--BoxMod encuentraX--backgroundColor anchoPantalla">
         <!-- Encontra tu auto por tipo -->
         <div class="conteiner-fluid encontraXTipo">
           <div class="row encontraXTipo__titulo encontraXTipo__titulo--boxMod">
@@ -205,7 +209,7 @@
 
 
         <!-- Encontra tu auto por marca -->
-        <div class="conteiner-fluid encuentraXMarca encontraXMarca__logos--tamanio">
+        <div class="conteiner-fluid encuentraXMarca encontraXMarca__logos--tamanio anchoPantalla">
           <div class="row encuentraXMarca__titulo">
             <h2 class="col-lg-12 encuentraXMarca__titulo--textAlignCenter encuentraXMarca__titulo--upercase encuentraXMarca__titulo--boxMod">Encontra tu auto por marca</h2>
           </div>
@@ -237,7 +241,7 @@
 
 
       <!-- Por que nosotros -->
-      <div class="container-fluid porQueNosotros--backgroundColor">
+      <div class="container-fluid porQueNosotros--backgroundColor porQueNosotros">
         <div class="row porQueNosotros__row--boxMod">
           <section class="col-lg-6 col-xs-12">
             <h2>¿Por qué con nosotros?</h2>

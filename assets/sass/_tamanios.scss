@@ -1,17 +1,23 @@
 // mixin 
+*{
+	max-width: 100vw;
+}
+
 @mixin size($width, $height){
 	width: $width;
 	height: $height;
 }
 
+.anchoPantalla{
+	width: 100vw important
+}
 
-
-.usadosMobile__contenedor--altura{@include size(auto, 600px)}
-.autos0kmMobile__contenedor--altura{@include size(auto, 600px)}
+.usadosMobile__contenedor--altura{@include size(100vw, 600px)}
+.autos0kmMobile__contenedor--altura{@include size(100vw, 600px)}
 
 // El carrusel unicamente en la vista desktop
-.carrusel__usados--altura{@include size(auto, 500px)}
-.carrusel__0km--altura{@include size(auto, 500px)}
+.carrusel__usados--altura{@include size(100vw, 500px)}
+.carrusel__0km--altura{@include size(100vw, 500px)}
 
 .carrusel__usados--imageSize{
 
@@ -48,3 +54,6 @@ footer{
 	width: 100%;
 }
 
+.porQueNosotros{
+	border: solid green 1px;
+}
