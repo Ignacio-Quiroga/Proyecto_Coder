@@ -2,15 +2,27 @@ body{
 	overflow-x: hidden;
 }
 
+// SECCION 1: BENEFICIOS AUTOS 0KM/USADOS CERTIFICADO (Diferente codigo html vista desktop y mobile)
 .carrusel__0km--flexbox{
 	display: flex;
+	justify-content: center;
 	.row{
 		align-self: center;
 	}
 }
 
 .carrusel__usados--flexbox{
+	display: flex;
+	justify-content: center;
 	.row{
 		align-self: center;
 	}
+}
+
+.porQueNosotros--flexbox{
+	display: flex;
+	justify-content: center;
+	.row{
+		align-self: center;
+	}	
 }

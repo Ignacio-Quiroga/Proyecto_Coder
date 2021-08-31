@@ -12,12 +12,22 @@
 	width: 100vw important
 }
 
-.usadosMobile__contenedor--altura{@include size(100vw, 600px)}
-.autos0kmMobile__contenedor--altura{@include size(100vw, 600px)}
 
+// INICIO SECCION 1: BENEFICIOS AUTOS 0KM/USADOS CERTIFICADO (Diferente codigo html vista desktop y mobile) 
 // El carrusel unicamente en la vista desktop
-.carrusel__usados--altura{@include size(100vw, 500px)}
-.carrusel__0km--altura{@include size(100vw, 500px)}
+.carrusel__usados--altura{@include size(100vw, 500px);
+	
+	}
+.carrusel__0km--altura{
+	@include size(100vw, 500px);
+	div{ 
+		max-width: 1280px;
+	}
+}
+
+.usadosMobile__contenedor--altura{@include size(100vw, auto)}
+.autos0kmMobile__contenedor--altura{@include size(100vw, auto)}
+
 
 .carrusel__usados--imageSize{
 
@@ -27,12 +37,49 @@
 	}
 }
 
+
+// INICIO SECCION 2: ENCONTRA POR TIPO/MARCA
+.encontraXTipo{
+	display: flex;
+	justify-content: center;
+	.row{
+		max-width: 1280px;
+	}
+}
+.encuentraXMarca{
+	display: flex;
+	justify-content: center;
+	.row{
+		max-width: 1280px;
+	}
+}
+
+.encontraXTipo__row div{
+	@media only screen and (min-width: 767px){
+		min-width: 213.33333px;
+	}	
+}
+
+.encontraPorMarcaRow div{
+	@media only screen and (min-width: 1285px){
+		min-width: 213.33333px;
+	}
+}
+
 .encontraXMarca__logos--tamanio{
 	img{
 		@include size(70px, auto);
 	}
 }
 
+
+// FIN INICIO SECCION 2: ENCONTRA POR TIPO/MARCA
+
+// INICIO SECCION 3: POR QUE NOSOTRO
+.porQueNosotros__row--tamanios{
+	max-width: 1280px;
+	height: auto;
+}
 
 // Inicio seccion autos_0km:
 .encontraXTipoAutos0km__img--size{
@@ -54,6 +101,3 @@ footer{
 	width: 100%;
 }
 
-.porQueNosotros{
-	border: solid green 1px;
-}

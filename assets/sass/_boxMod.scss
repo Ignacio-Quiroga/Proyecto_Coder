@@ -20,10 +20,27 @@
 
 
 
-//padding
+// Inicio barra de navegacion
+nav{
+	padding:{
+		top: 8px;
+		bottom: 8px;
+		left: 40px;
+		right: 50px;
+	}
+	
+}
+
+// Fin barra de navegacion
+
+
+// SECCION 1: Beneficios autos 0km/usados certificados
+
+// Carrusel (Vista desktop)
 .carrusel__0km--boxMod{padding: 50px}
 .carrusel__usados--boxMod{padding: 50px 0;}
 
+// Usados Mobile
 .usadosMobile--boxMod{
 	padding:{
 		top: 50px;
@@ -36,9 +53,10 @@
 
 .usadosMobile__contenedor--boxMod{
 	padding: 50px 0;
+	
 }
 
-// Seccion Encontra por tipo
+// SECCION 2: ENCONTRA POR TIPO/MARCA
 .encontraX--BoxMod{
 	padding: 50px 0;
 }
@@ -67,6 +85,9 @@ encontraXTipo__row--boxMod{
 	}
 }
 
+.encuentraXMarca__logos--BoxMod{
+	padding-bottom: 30px;
+}
 .pruebaFondo{
 	background-image: url(../img/mecanico3.png);
 	
@@ -75,7 +96,7 @@ encontraXTipo__row--boxMod{
 
 
 
-//Por que Nosotros
+//SECCION 3: POR QUE NOSOTROS
 .porQueNosotros__row--boxMod{
 	padding:{
 		top: 50px;
@@ -86,7 +107,7 @@ encontraXTipo__row--boxMod{
 }
 
 
-//footer
+//FOOTER
 .footer--boxMod{
 	padding: 50px 0;
 }
@@ -105,7 +126,7 @@ encontraXTipo__row--boxMod{
 // Fin footer
 
 
-// Inicio seccion autos_0km:
+// Inicio PAGINA autos_0km:
 .autos0km__contenedor--boxMod{
 	padding:{
 		top: 50px;

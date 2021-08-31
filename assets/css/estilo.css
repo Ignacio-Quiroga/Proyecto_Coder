@@ -27,6 +27,12 @@
 .marginTop30 {
   margin-top: 30px; }
 
+nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 50px; }
+
 .carrusel__0km--boxMod {
   padding: 50px; }
 
@@ -60,6 +66,9 @@ encontraXTipo__row--boxMod {
 .encuentraXMarca__titulo--boxMod {
   padding-top: 50px;
   padding-bottom: 25px; }
+
+.encuentraXMarca__logos--BoxMod {
+  padding-bottom: 30px; }
 
 .pruebaFondo {
   background-image: url(../img/mecanico3.png); }
@@ -130,6 +139,12 @@ encontraXTipo__row--boxMod {
 .encuentraX--backgroundColor {
   background-color: #f2f3f8; }
 
+.encuentraXMarca {
+  background-color: #f2f3f8; }
+
+.encontraXTipo {
+  background-color: #f2f3f8; }
+
 .textColorWhite {
   color: white; }
 
@@ -196,14 +211,6 @@ encontraXTipo__row--boxMod {
 .anchoPantalla {
   width: 100vw important; }
 
-.usadosMobile__contenedor--altura {
-  width: 100vw;
-  height: 600px; }
-
-.autos0kmMobile__contenedor--altura {
-  width: 100vw;
-  height: 600px; }
-
 .carrusel__usados--altura {
   width: 100vw;
   height: 500px; }
@@ -211,13 +218,47 @@ encontraXTipo__row--boxMod {
 .carrusel__0km--altura {
   width: 100vw;
   height: 500px; }
+  .carrusel__0km--altura div {
+    max-width: 1280px; }
+
+.usadosMobile__contenedor--altura {
+  width: 100vw;
+  height: auto; }
+
+.autos0kmMobile__contenedor--altura {
+  width: 100vw;
+  height: auto; }
 
 @media only screen and (min-width: 1024px) {
   .carrusel__usados--imageSize {
     height: 350px; } }
 
+.encontraXTipo {
+  display: flex;
+  justify-content: center; }
+  .encontraXTipo .row {
+    max-width: 1280px; }
+
+.encuentraXMarca {
+  display: flex;
+  justify-content: center; }
+  .encuentraXMarca .row {
+    max-width: 1280px; }
+
+@media only screen and (min-width: 767px) {
+  .encontraXTipo__row div {
+    min-width: 213.33333px; } }
+
+@media only screen and (min-width: 1285px) {
+  .encontraPorMarcaRow div {
+    min-width: 213.33333px; } }
+
 .encontraXMarca__logos--tamanio img {
   width: 70px;
+  height: auto; }
+
+.porQueNosotros__row--tamanios {
+  max-width: 1280px;
   height: auto; }
 
 @media only screen and (min-width: 1024px) {
@@ -227,9 +268,6 @@ encontraXTipo__row--boxMod {
 
 footer {
   width: 100%; }
-
-.porQueNosotros {
-  border: solid green 1px; }
 
 * {
   margin: 0;
@@ -335,15 +373,16 @@ body h3 {
       font-size: 1.7rem; } }
 
 .button {
+  position: relative;
   border-radius: 1rem;
   padding: 0.7rem;
   margin-left: 2rem;
   text-decoration: none;
   font-size: 2rem;
+  border: 0px;
   color: white;
   background-image: linear-gradient(to left, #92a1f1, #566ded);
   color: #313131;
-  position: absolute;
   -webkit-animation: colorchange 20s infinite alternate; }
   @media only screen and (max-width: 767px) {
     .button {
@@ -404,12 +443,22 @@ body {
   overflow-x: hidden; }
 
 .carrusel__0km--flexbox {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .carrusel__0km--flexbox .row {
     align-self: center; }
 
-.carrusel__usados--flexbox .row {
-  align-self: center; }
+.carrusel__usados--flexbox {
+  display: flex;
+  justify-content: center; }
+  .carrusel__usados--flexbox .row {
+    align-self: center; }
+
+.porQueNosotros--flexbox {
+  display: flex;
+  justify-content: center; }
+  .porQueNosotros--flexbox .row {
+    align-self: center; }
 
 /* vista desktop */
 @media only screen and (min-width: 1024px) {
