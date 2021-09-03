@@ -269,6 +269,9 @@ encontraXTipo__row--boxMod {
 footer {
   width: 100%; }
 
+.autos0km--flexbox div {
+  max-width: 1280px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -460,6 +463,10 @@ body {
   .porQueNosotros--flexbox .row {
     align-self: center; }
 
+.autos0km--flexbox {
+  display: flex;
+  justify-content: center; }
+
 /* vista desktop */
 @media only screen and (min-width: 1024px) {
   .hideOnDesktop {
@@ -468,6 +475,6 @@ body {
     justify-content: flex-end; } }
 
 /* vista mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .hideOnMobile {
     display: none; } }
